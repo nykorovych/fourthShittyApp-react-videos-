@@ -9,7 +9,7 @@ const KEY = "AIzaSyDJ6taxsVRcJKUjBVxECpozoOd80iMlIx4";
 const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
-  const [videos, search] = useVideos("gachibass");
+  const [videos, search] = useVideos("forest");
 
   useEffect(() => {
     setSelectedVideo(videos[0])
